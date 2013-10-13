@@ -1,0 +1,19 @@
+# view res/layout/activity_main.xml #generated:43
+-keep class com.htc.preference.HtcPreference { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:30
+-keep class com.htc.preference.HtcPreferenceCategory { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:2
+-keep class com.htc.preference.HtcPreferenceScreen { <init>(...); }
+
+# view res/layout/activity_main.xml #generated:31
+# view res/layout/activity_main.xml #generated:37
+-keep class com.htc.preference.HtcSwitchPreference { <init>(...); }
+
+# view AndroidManifest.xml #generated:32
+-keep class com.jmz.software.mystsettings.BootReceiver { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class com.jmz.software.mystsettings.MainActivity { <init>(...); }
+

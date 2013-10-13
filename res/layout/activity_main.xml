@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.htc.preference.HtcPreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<!--     <com.htc.preference.HtcPreferenceCategory android:title="Display" > -->
+<!--         <com.htc.preference.HtcSwitchPreference -->
+<!--             android:defaultValue="false" -->
+<!--             android:key="checkbox" -->
+<!--             android:summary="If enabled LED notifications will be shown" -->
+<!--             android:title="Enable LED Notifications" > -->
+<!--         </com.htc.preference.HtcSwitchPreference> -->
+<!--         </com.htc.preference.HtcPreferenceCategory> -->
+<!--         <com.htc.preference.HtcPreferenceCategory android:title="Sound" > -->
+<!--         <com.htc.preference.HtcSwitchPreference -->
+<!--             android:defaultValue="false" -->
+<!--             android:key="vibrate" -->
+<!--             android:summary="If enabled softkey vibrate will be enabled" -->
+<!--             android:title="Enable Soft Key Vibration" > -->
+<!--         </com.htc.preference.HtcSwitchPreference> -->
+<!--     </com.htc.preference.HtcPreferenceCategory> -->
+    <!-- <com.htc.preference.HtcPreferenceCategory
+        android:title="StatusBar"
+        android:key="second_category">
+        <com.htc.preference.HtcEditTextPreference
+            android:key="statusbar_text"
+            android:title="Change Carrier Label"
+            android:summary="Change the carrier label in the statusbar"
+            android:dialogTitle="Change Carrier label"
+            android:dialogMessage="Change the carrier label in the statusbar"   
+			android:defaultValue="ATT" />
+	</com.htc.preference.HtcPreferenceCategory>-->
+	<com.htc.preference.HtcPreferenceCategory android:title="Kernel" >
+	    <com.htc.preference.HtcSwitchPreference
+            android:defaultValue="false"
+            android:key="sweep2wake"
+            android:summary="Will enable Sweep2Wake feature"
+            android:title="Enable Sweep2Wake" >
+        </com.htc.preference.HtcSwitchPreference>
+        <com.htc.preference.HtcSwitchPreference
+            android:defaultValue="false"
+            android:key="forcecharge"
+            android:summary="Will enable Force Fast Charge"
+            android:title="Enable Force Fast Charge" >
+        </com.htc.preference.HtcSwitchPreference>
+	<com.htc.preference.HtcPreference
+    		android:title="About" >
+        	<intent 
+        		android:action="android.intent.action.VIEW"
+        		android:targetPackage="com.jmz.software.mystsettings"
+        		android:targetClass="com.jmz.software.mystsettings.About" />
+	</com.htc.preference.HtcPreference>
+	</com.htc.preference.HtcPreferenceCategory>
+</com.htc.preference.HtcPreferenceScreen>
